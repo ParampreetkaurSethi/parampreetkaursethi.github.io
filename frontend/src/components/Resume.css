@@ -1,0 +1,27 @@
+/* Resume.css */
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust this if you need a different height */
+    background-image: url('../assets/contact.png');
+}
+
+.resume-image {
+    width: 1500px;
+    height: 2798px;
+    position: absolute;
+    top: 189px;
+    left: 312px;
+    gap: 0px;
+    opacity: 1; /* Set to 1 to make the image visible */
+    margin-bottom: 0px;
+}
+.pdf-viewer {
+    width: 100%;
+    height: 100%;
+    border: none; /* Optional: Remove border */
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Notable&family=Shojumaru&family=Titan+One&family=Uchen&family=Wendy+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-heading h1 {
+    font-family: 'Notable';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: rgba(19, 34, 56, 1);
+    padding: 20px;
+}
+
+.portfolio-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio-card, .portfolio-card1 {
+    width: calc(25% - 20px);
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.portfolio-card img, .portfolio-card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-details, .portfolio-details1 {
+    padding: 25px;
+}
+
+.category {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10.67px;
+    font-weight: 500;
+    line-height: 11.56px;
+    color: rgba(135, 144, 157, 1);
+}
+
+.project-name {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14.01px;
+    font-weight: 600;
+    line-height: 17.35px;
+    color: rgba(19, 34, 56, 1);
+}
+
+.description {
+    font-family: 'Work Sans', sans-serif;
+    color: rgba(85, 96, 112, 1);
+    font-size: 15px;
+
+   
+}
+.case-study-button{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    font-family: 'Work Sans';
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+.case-study-button .case-study-icon{
+    height: 15px;
+    width: 15px;
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-top: 7px;
+}

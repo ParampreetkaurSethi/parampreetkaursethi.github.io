@@ -1,0 +1,82 @@
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../assets/footerimg.png'); /* Adjust the path to your background image */
+    padding: 160px 98px; /* Adjust padding as needed */
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.footer-left img {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.footer-left span {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer-middle a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    color: white; /* Adjust color as needed */
+}
+
+.footer-right {
+    width: 20%;
+}
+
+.footer-right p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: white;
+    /* Adjust color as needed */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 80px 30px; /* Adjust padding for smaller screens */
+    }
+    
+    .footer-left, .footer-middle, .footer-right {
+        width: 100%;
+    }
+    
+    .footer-left, .footer-middle {
+        margin-bottom: 20px; /* Add some space between sections on smaller screens */
+    }
+    
+    .footer-left img {
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+    
+    .footer-right p {
+        text-align: center; /* Center align text on smaller screens */
+    }
+}
